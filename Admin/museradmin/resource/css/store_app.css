@@ -1,0 +1,239 @@
+/* reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+input,
+img,
+select {
+  vertical-align: middle;
+}
+body {
+  font-size: 100%;
+  font-family: 'Microsoft Yahei', Tahoma, Verdana, sans-serif;
+  color: #555;
+  /*-webkit-tap-highlight-color: transparent !important;*/
+}
+/*body {*/
+/*position: relative;*/
+/*}*/
+ul,
+ol {
+  list-style: none;
+}
+/** float **/
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+/* clearfix */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  display: inline-block;
+}
+/* Hide from IE Mac \*/
+.clearfix {
+  display: block;
+}
+a,
+button,
+input {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  border: 0;
+}
+input:focus {
+  outline: none;
+}
+/* end reset */
+html,
+body {
+  font-size: .14rem;
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
+  overflow: auto;
+}
+.flexBox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  overflow: hidden;
+  height: 100%;
+}
+.flex {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+@media screen and (min-width: 280px) {
+  html {
+    font-size: 47.67px;
+  }
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 85.33px;
+  }
+}
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 100px;
+  }
+}
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 110.4px;
+  }
+}
+.top img {
+  width: 100%;
+  height: 100%;
+}
+.main {
+  margin: 0px auto;
+  text-align: center;
+  padding: 84px 62px 82px 62px;
+}
+.main img {
+  width: 100%;
+}
+.bottom .bottom_img {
+  margin: 0px auto;
+  width: 850px;
+  text-align: center;
+}
+.bottom .bottom_img img {
+  width: 390px;
+  height: 108px;
+}
+.bottom .fl {
+  float: left;
+}
+.bottom .fr {
+  float: right;
+}
+.store_app .phone_up {
+  position: fixed;
+  display: none;
+  top: 0px;
+  left: 0px;
+  background: url(/resource/images/phoneimg/png.png) repeat;
+  width: 100%;
+  height: 100%;
+}
+.store_app .phone_updiv {
+  width: 80%;
+  padding: 2% 5%;
+  background: url(/resource/images/phoneimg/ico.jpg) no-repeat right 5% #ffffff;
+  font-size: 1.9em;
+}
+.dealer_app .phone_up {
+  position: fixed;
+  display: none;
+  top: 0px;
+  left: 0px;
+  background: url(/resource/images/phoneimg/png.png) repeat;
+  width: 100%;
+  height: 100%;
+}
+.dealer_app .phone_updiv {
+  width: 80%;
+  padding: 2% 5%;
+  background: url(/resource/images/phoneimg/ico.jpg) no-repeat right 5% #ffffff;
+  font-size: 1.9em;
+}

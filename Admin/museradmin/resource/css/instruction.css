@@ -1,0 +1,224 @@
+/* reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+input,
+img,
+select {
+  vertical-align: middle;
+}
+body {
+  font-size: 100%;
+  font-family: 'Microsoft Yahei', Tahoma, Verdana, sans-serif;
+  color: #555;
+  /*-webkit-tap-highlight-color: transparent !important;*/
+}
+/*body {*/
+/*position: relative;*/
+/*}*/
+ul,
+ol {
+  list-style: none;
+}
+/** float **/
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+/* clearfix */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  display: inline-block;
+}
+/* Hide from IE Mac \*/
+.clearfix {
+  display: block;
+}
+a,
+button,
+input {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  border: 0;
+}
+input:focus {
+  outline: none;
+}
+/* end reset */
+html,
+body {
+  font-size: .14rem;
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
+  overflow: auto;
+}
+.flexBox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  overflow: hidden;
+  height: 100%;
+}
+.flex {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+@media screen and (min-width: 280px) {
+  html {
+    font-size: 47.67px;
+  }
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 85.33px;
+  }
+}
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 100px;
+  }
+}
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 110.4px;
+  }
+}
+.main {
+  background-color: #eeeeee;
+  overflow: auto;
+  max-width: 640px;
+  margin: 0 auto;
+}
+.main .ctentList {
+  margin-top: .08rem;
+  bottom-top: 1px solid #d8d7d7;
+  border-bottom: 1px solid #d8d7d7;
+  background-color: #fff;
+  padding-bottom: .15rem;
+}
+.main .ctentListTitle {
+  font-family: "宋体", "Microsoft Yahei", Arial, Helvetica, sans-serif;
+  line-height: .44rem;
+  border-bottom: 1px solid #d8d7d7;
+  color: #444444;
+  font-size: .16rem;
+  padding: 0 .2rem;
+  margin-bottom: .15rem;
+}
+.main .listV {
+  font-family: "宋体", "Microsoft Yahei", Arial, Helvetica, sans-serif;
+  color: #888888;
+  line-height: .21rem;
+  font-size: .13rem;
+  padding: 0 .2rem;
+}
+.main .customer {
+  height: .6rem;
+  line-height: .6rem;
+  font-family: "宋体", "Microsoft Yahei", Arial, Helvetica, sans-serif;
+  font-size: .13rem;
+  text-align: center;
+}
+.main .customer span {
+  color: #444444;
+}
+.main .customer .tel {
+  color: #b12524;
+}
